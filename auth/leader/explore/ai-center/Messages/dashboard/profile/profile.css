@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #f5efe6;
+  padding: 40px;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #0f2d2f, #1f3f41);
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header p {
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+/* MAIN GRID */
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* CARDS */
+.profile-card, .edit-card {
+  background: #f8f4ed;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+/* TEXT */
+h2 {
+  margin: 10px 0 20px;
+}
+
+h4 {
+  color: #1f7a6b;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+h5 {
+  margin-top: 20px;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tags span {
+  background: #e2efe8;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* INPUTS */
+.edit-card input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #e9e5de;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #1f7a6b;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

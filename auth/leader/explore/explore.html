@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore</title>
+
+<link rel="stylesheet" href="explore.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Browse help requests with filterable community context.</h1>
+  <p>Filter by category, urgency, skills, and location to surface the best matches.</p>
+</section>
+
+<!-- MAIN -->
+<div class="container">
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <h3>FILTERS</h3>
+    <h2>Refine the feed</h2>
+
+    <label>Category</label>
+    <select>
+      <option>All categories</option>
+    </select>
+
+    <label>Urgency</label>
+    <select>
+      <option>All urgency levels</option>
+    </select>
+
+    <label>Skills</label>
+    <input type="text" placeholder="React, Figma, Git/GitHub">
+
+    <label>Location</label>
+    <input type="text" placeholder="Karachi, Lahore, Remote">
+  </div>
+
+  <!-- FEED -->
+  <div class="feed">
+
+    <!-- CARD -->
+    <div class="card">
+      <div class="tags">
+        <span class="green">Web Development</span>
+        <span class="red">High</span>
+        <span class="light">Solved</span>
+      </div>
+
+      <h3>Need help</h3>
+      <p>help needed</p>
+
+      <div class="meta">
+        <span>Ayesha Khan</span>
+        <span>Karachi • 1 helper interested</span>
+      </div>
+
+      <button>Open details</button>
+    </div>
+
+    <!-- CARD -->
+    <div class="card">
+      <div class="tags">
+        <span class="green">Web Development</span>
+        <span class="red">High</span>
+        <span class="light">Solved</span>
+      </div>
+
+      <h3>Need help making my portfolio responsive before demo day</h3>
+      <p>My HTML/CSS portfolio breaks on tablets and I need layout fixes.</p>
+
+      <div class="chips">
+        <span>HTML/CSS</span>
+        <span>Responsive</span>
+        <span>Portfolio</span>
+      </div>
+
+      <div class="meta">
+        <span>Sara Noor</span>
+        <span>Karachi • 1 helper interested</span>
+      </div>
+
+      <button>Open details</button>
+    </div>
+
+    <!-- CARD -->
+    <div class="card">
+      <div class="tags">
+        <span class="blue">Design</span>
+        <span class="yellow">Medium</span>
+        <span class="gray">Open</span>
+      </div>
+
+      <h3>Looking for Figma feedback on a poster</h3>
+      <p>Need UI/UX improvements and design suggestions.</p>
+
+      <div class="chips">
+        <span>Figma</span>
+        <span>Poster</span>
+        <span>Design Review</span>
+      </div>
+
+      <div class="meta">
+        <span>Ayesha Khan</span>
+        <span>Lahore • 1 helper interested</span>
+      </div>
+
+      <button>Open details</button>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="explore.js"></script>
+</body>
+</html>

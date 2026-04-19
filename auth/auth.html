@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auth - Helplytics</title>
+
+<link rel="stylesheet" href="auth.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <form id="loginForm">
+<div class="container">
+
+  <!-- LEFT PANEL -->
+  <div class="left">
+    <span class="tag">COMMUNITY ACCESS</span>
+
+    <h1>Enter the support network.</h1>
+
+    <p>
+      Choose a demo identity, set your role, and jump into a multi-page
+      product flow designed for asking, offering, and tracking help.
+    </p>
+
+    <ul>
+      <li>• Role-based entry for Need Help, Can Help, or Both</li>
+      <li>• Direct path into dashboard, requests, AI Center</li>
+      <li>• Persistent demo session powered by LocalStorage</li>
+    </ul>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="right">
+
+    <span class="small">LOGIN / SIGNUP</span>
+    <h2>Authenticate your community profile</h2>
+
+    <form id="loginForm">
+
+      <label>Select demo user</label>
+      <select id="user">
+        <option>Ayesha Khan</option>
+        <option>Ali Raza</option>
+      </select>
+
+      <label>Role selection</label>
+      <select id="role">
+        <option>Both</option>
+        <option>Need Help</option>
+        <option>Can Help</option>
+      </select>
+
+      <div class="row">
+        <div>
+          <label>Email</label>
+          <input type="email" id="email" value="community@helphub.ai">
+        </div>
+
+        <div>
+          <label>Password</label>
+          <input type="password" id="password" value="12345678">
+        </div>
+      </div>
+
+      <button type="submit">Continue to dashboard</button>
+
+    </form>
+
+  </div>
+
+</div>
+</form>
+
+<script src="auth.js"></script>
+</body>
+</html>
